@@ -31,8 +31,8 @@
       #become_user: ubuntu
       notify: tomcat8 starting
       
-    - name: Rename war file  
-      shell: mv /var/lib/tomcat8/webapps/sample.war /var/lib/tomcat8/webapps/ansible.war
+    #- name: Rename war file  
+      #shell: mv /var/lib/tomcat8/webapps/sample.war /var/lib/tomcat8/webapps/ansible.war
       #become: true
       
   handlers:
